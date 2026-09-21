@@ -1,6 +1,7 @@
 ﻿[
 {
   "model": "auth.user",
+  "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1500000$1SxlwiaNpd8yfDv2KukK58$YmeUU5R9Cmn25jQCLDOfNqUH8Vc3cIfcgMxPuxYh6jA=",
     "last_login": null,
@@ -18,6 +19,7 @@
 },
 {
   "model": "auth.user",
+  "pk": 2,
   "fields": {
     "password": "pbkdf2_sha256$1500000$F6xyIjcXFsgCxuQvje4YPE$T5owYnlZxWQaH0uKFU2e2/EhW8KI7XvfCZ8KlMY/OAA=",
     "last_login": null,
@@ -35,6 +37,7 @@
 },
 {
   "model": "auth.user",
+  "pk": 3,
   "fields": {
     "password": "pbkdf2_sha256$1500000$Pt91SuSqJ2P9mSyifGEVGR$lKiVf8y2cyVi7joHErJIeALL9V98Vv7UN4PGMFzs4Tw=",
     "last_login": null,
@@ -52,6 +55,7 @@
 },
 {
   "model": "auth.user",
+  "pk": 4,
   "fields": {
     "password": "pbkdf2_sha256$1500000$ryTtGdU2ila2wyeZw8NoGX$woap8FRejDTnPRloaMpRGQFCzM9Sf1DFrVgAB/IrbIs=",
     "last_login": null,
@@ -69,6 +73,7 @@
 },
 {
   "model": "auth.user",
+  "pk": 5,
   "fields": {
     "password": "pbkdf2_sha256$1500000$hBUY0wM7WSNPEixkftOXOg$vJJnaJsQto8S6+WCcZGQ9tHoafhvQLqqkV6dXNR5rug=",
     "last_login": null,
@@ -86,6 +91,7 @@
 },
 {
   "model": "auth.user",
+  "pk": 6,
   "fields": {
     "password": "pbkdf2_sha256$1500000$nVEc2YJUTzlmoDOhTmECtq$87BserQLRHadplTXI2Fq8Ok6ePyKoaBEx32+ZkgfLic=",
     "last_login": "2026-09-20T21:23:16.203Z",
@@ -105,9 +111,7 @@
   "model": "assets.userprofile",
   "pk": 1,
   "fields": {
-    "user": [
-      "admin"
-    ],
+    "user": 1,
     "role": "ADMIN",
     "department": "IT",
     "phone": "9876543210",
@@ -118,9 +122,7 @@
   "model": "assets.userprofile",
   "pk": 2,
   "fields": {
-    "user": [
-      "arjun"
-    ],
+    "user": 2,
     "role": "EMPLOYEE",
     "department": "Development",
     "phone": "9876543211",
@@ -131,9 +133,7 @@
   "model": "assets.userprofile",
   "pk": 3,
   "fields": {
-    "user": [
-      "rahul"
-    ],
+    "user": 3,
     "role": "EMPLOYEE",
     "department": "Design",
     "phone": "9876543212",
@@ -144,9 +144,7 @@
   "model": "assets.userprofile",
   "pk": 4,
   "fields": {
-    "user": [
-      "meera"
-    ],
+    "user": 4,
     "role": "EMPLOYEE",
     "department": "HR",
     "phone": "9876543213",
@@ -157,9 +155,7 @@
   "model": "assets.userprofile",
   "pk": 5,
   "fields": {
-    "user": [
-      "fahad"
-    ],
+    "user": 5,
     "role": "EMPLOYEE",
     "department": "Finance",
     "phone": "9876543214",
@@ -170,9 +166,7 @@
   "model": "assets.userprofile",
   "pk": 6,
   "fields": {
-    "user": [
-      "mainadmin"
-    ],
+    "user": 6,
     "role": "ADMIN",
     "department": "",
     "phone": "",
@@ -354,9 +348,7 @@
   "pk": 1,
   "fields": {
     "asset": 1,
-    "employee": [
-      "arjun"
-    ],
+    "employee": 2,
     "date_assigned": "2025-02-01",
     "date_returned": null,
     "created_at": "2026-09-20T20:55:02.639Z"
@@ -367,9 +359,7 @@
   "pk": 2,
   "fields": {
     "asset": 3,
-    "employee": [
-      "rahul"
-    ],
+    "employee": 3,
     "date_assigned": "2025-03-10",
     "date_returned": null,
     "created_at": "2026-09-20T20:55:02.655Z"
@@ -380,9 +370,7 @@
   "pk": 3,
   "fields": {
     "asset": 5,
-    "employee": [
-      "meera"
-    ],
+    "employee": 4,
     "date_assigned": "2025-05-25",
     "date_returned": null,
     "created_at": "2026-09-20T20:55:02.668Z"
@@ -393,9 +381,7 @@
   "pk": 4,
   "fields": {
     "asset": 8,
-    "employee": [
-      "fahad"
-    ],
+    "employee": 5,
     "date_assigned": "2026-09-24",
     "date_returned": "2026-09-30",
     "created_at": "2026-09-20T22:20:45.517Z"
@@ -408,9 +394,7 @@
     "asset": 6,
     "issue": "Mouse is disconnecting randomly.",
     "status": "IN_PROGRESS",
-    "assigned_technician": [
-      "admin"
-    ],
+    "assigned_technician": 1,
     "created_at": "2026-09-20T20:55:02.685Z",
     "updated_at": "2026-09-20T20:55:02.685Z"
   }
@@ -422,9 +406,7 @@
     "asset": 2,
     "issue": "Laptop battery drains unusually fast.",
     "status": "OPEN",
-    "assigned_technician": [
-      "admin"
-    ],
+    "assigned_technician": 1,
     "created_at": "2026-09-20T20:55:02.700Z",
     "updated_at": "2026-09-20T20:55:02.700Z"
   }
@@ -436,9 +418,7 @@
     "asset": 4,
     "issue": "Monitor occasionally flickers. and lines",
     "status": "RESOLVED",
-    "assigned_technician": [
-      "fahad"
-    ],
+    "assigned_technician": 5,
     "created_at": "2026-09-20T20:55:02.717Z",
     "updated_at": "2026-09-20T22:23:40.165Z"
   }
@@ -450,9 +430,7 @@
     "asset": 7,
     "issue": "serious issue",
     "status": "CLOSED",
-    "assigned_technician": [
-      "meera"
-    ],
+    "assigned_technician": 4,
     "created_at": "2026-09-20T22:24:09.183Z",
     "updated_at": "2026-09-20T22:24:39.708Z"
   }
@@ -461,12 +439,8 @@
   "model": "assets.impersonationlog",
   "pk": 1,
   "fields": {
-    "admin": [
-      "mainadmin"
-    ],
-    "employee": [
-      "arjun"
-    ],
+    "admin": 6,
+    "employee": 2,
     "started_at": "2026-09-20T23:11:03.484Z",
     "ended_at": "2026-09-20T23:11:23.440Z"
   }
@@ -475,12 +449,8 @@
   "model": "assets.impersonationlog",
   "pk": 2,
   "fields": {
-    "admin": [
-      "mainadmin"
-    ],
-    "employee": [
-      "arjun"
-    ],
+    "admin": 6,
+    "employee": 2,
     "started_at": "2026-09-20T23:14:18.215Z",
     "ended_at": "2026-09-20T23:14:30.318Z"
   }
@@ -489,12 +459,8 @@
   "model": "assets.impersonationlog",
   "pk": 3,
   "fields": {
-    "admin": [
-      "admin"
-    ],
-    "employee": [
-      "arjun"
-    ],
+    "admin": 1,
+    "employee": 2,
     "started_at": "2026-09-21T00:00:52.454Z",
     "ended_at": "2026-09-21T00:01:11.636Z"
   }
@@ -503,9 +469,7 @@
   "model": "assets.aiconversation",
   "pk": 12,
   "fields": {
-    "user": [
-      "arjun"
-    ],
+    "user": 2,
     "title": "hi",
     "created_at": "2026-09-21T09:04:28.490Z",
     "updated_at": "2026-09-21T09:04:48.083Z"
@@ -515,9 +479,7 @@
   "model": "assets.aiconversation",
   "pk": 23,
   "fields": {
-    "user": [
-      "admin"
-    ],
+    "user": 1,
     "title": "Count assets are there?",
     "created_at": "2026-09-21T09:23:14.860Z",
     "updated_at": "2026-09-21T09:24:13.371Z"
@@ -527,9 +489,7 @@
   "model": "assets.aiconversation",
   "pk": 25,
   "fields": {
-    "user": [
-      "admin"
-    ],
+    "user": 1,
     "title": "Overview the low stock items.",
     "created_at": "2026-09-21T09:24:39.544Z",
     "updated_at": "2026-09-21T09:30:14.081Z"
@@ -539,9 +499,7 @@
   "model": "assets.aiconversation",
   "pk": 26,
   "fields": {
-    "user": [
-      "admin"
-    ],
+    "user": 1,
     "title": "Automated Test",
     "created_at": "2026-09-21T09:41:49.177Z",
     "updated_at": "2026-09-21T09:41:49.179Z"
@@ -551,9 +509,7 @@
   "model": "assets.aiconversation",
   "pk": 27,
   "fields": {
-    "user": [
-      "admin"
-    ],
+    "user": 1,
     "title": "Automated Test",
     "created_at": "2026-09-21T09:43:42.551Z",
     "updated_at": "2026-09-21T09:45:21.253Z"
@@ -563,9 +519,7 @@
   "model": "assets.aiconversation",
   "pk": 28,
   "fields": {
-    "user": [
-      "admin"
-    ],
+    "user": 1,
     "title": "Automated Test",
     "created_at": "2026-09-21T09:47:23.915Z",
     "updated_at": "2026-09-21T09:49:51.527Z"
@@ -575,9 +529,7 @@
   "model": "assets.aiconversation",
   "pk": 29,
   "fields": {
-    "user": [
-      "admin"
-    ],
+    "user": 1,
     "title": "hello",
     "created_at": "2026-09-21T09:49:34.259Z",
     "updated_at": "2026-09-21T15:56:46.541Z"

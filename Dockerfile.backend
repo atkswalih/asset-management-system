@@ -15,4 +15,4 @@ RUN python manage.py collectstatic --noinput
 
 EXPOSE 8000
 
-CMD ["sh", "-c", "python manage.py migrate && python manage.py shell -c \"import os; from django.contrib.auth import get_user_model; User=get_user_model(); username=os.getenv('ADMIN_USERNAME'); password=os.getenv('ADMIN_PASSWORD'); email=os.getenv('ADMIN_EMAIL', ''); User.objects.filter(username=username).exists() or User.objects.create_superuser(username=username, email=email, password=password)\" && gunicorn config.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 1 --timeout 90"]
+CMD ["sh", "-c", "python manage.py migrate && python import_production_data.py && gunicorn config.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 1 --timeout 90"]

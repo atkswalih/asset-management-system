@@ -1,0 +1,1376 @@
+﻿[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$1SxlwiaNpd8yfDv2KukK58$YmeUU5R9Cmn25jQCLDOfNqUH8Vc3cIfcgMxPuxYh6jA=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "System",
+    "last_name": "Admin",
+    "email": "admin@assetmanager.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-20T20:54:59.342Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$F6xyIjcXFsgCxuQvje4YPE$T5owYnlZxWQaH0uKFU2e2/EhW8KI7XvfCZ8KlMY/OAA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "arjun",
+    "first_name": "Arjun",
+    "last_name": "Menon",
+    "email": "arjun@assetmanager.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-20T20:54:59.800Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$Pt91SuSqJ2P9mSyifGEVGR$lKiVf8y2cyVi7joHErJIeALL9V98Vv7UN4PGMFzs4Tw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rahul",
+    "first_name": "Rahul",
+    "last_name": "Nair",
+    "email": "rahul@assetmanager.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-20T20:55:00.288Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$ryTtGdU2ila2wyeZw8NoGX$woap8FRejDTnPRloaMpRGQFCzM9Sf1DFrVgAB/IrbIs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "meera",
+    "first_name": "Meera",
+    "last_name": "Thomas",
+    "email": "meera@assetmanager.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-20T20:55:00.767Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$hBUY0wM7WSNPEixkftOXOg$vJJnaJsQto8S6+WCcZGQ9tHoafhvQLqqkV6dXNR5rug=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "fahad",
+    "first_name": "Fahad",
+    "last_name": "Ali",
+    "email": "fahad@assetmanager.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-20T20:55:01.552Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$nVEc2YJUTzlmoDOhTmECtq$87BserQLRHadplTXI2Fq8Ok6ePyKoaBEx32+ZkgfLic=",
+    "last_login": "2026-09-20T21:23:16.203Z",
+    "is_superuser": true,
+    "username": "mainadmin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-20T21:01:48.626Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "assets.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "role": "ADMIN",
+    "department": "IT",
+    "phone": "9876543210",
+    "about": ""
+  }
+},
+{
+  "model": "assets.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "arjun"
+    ],
+    "role": "EMPLOYEE",
+    "department": "Development",
+    "phone": "9876543211",
+    "about": ""
+  }
+},
+{
+  "model": "assets.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "rahul"
+    ],
+    "role": "EMPLOYEE",
+    "department": "Design",
+    "phone": "9876543212",
+    "about": ""
+  }
+},
+{
+  "model": "assets.userprofile",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "meera"
+    ],
+    "role": "EMPLOYEE",
+    "department": "HR",
+    "phone": "9876543213",
+    "about": ""
+  }
+},
+{
+  "model": "assets.userprofile",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "fahad"
+    ],
+    "role": "EMPLOYEE",
+    "department": "Finance",
+    "phone": "9876543214",
+    "about": ""
+  }
+},
+{
+  "model": "assets.userprofile",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "mainadmin"
+    ],
+    "role": "ADMIN",
+    "department": "",
+    "phone": "",
+    "about": ""
+  }
+},
+{
+  "model": "assets.asset",
+  "pk": 1,
+  "fields": {
+    "name": "Dell Latitude 5440",
+    "type": "Laptop",
+    "serial_number": "DL5440-001",
+    "status": "ASSIGNED",
+    "purchase_date": "2025-01-15",
+    "created_at": "2026-09-20T20:55:02.458Z",
+    "updated_at": "2026-09-20T20:55:02.458Z"
+  }
+},
+{
+  "model": "assets.asset",
+  "pk": 2,
+  "fields": {
+    "name": "HP ProBook 450",
+    "type": "Laptop",
+    "serial_number": "HP450-002",
+    "status": "AVAILABLE",
+    "purchase_date": "2025-02-10",
+    "created_at": "2026-09-20T20:55:02.471Z",
+    "updated_at": "2026-09-20T20:55:02.471Z"
+  }
+},
+{
+  "model": "assets.asset",
+  "pk": 3,
+  "fields": {
+    "name": "MacBook Air M3",
+    "type": "Laptop",
+    "serial_number": "MBA-M3-003",
+    "status": "ASSIGNED",
+    "purchase_date": "2025-03-05",
+    "created_at": "2026-09-20T20:55:02.483Z",
+    "updated_at": "2026-09-20T20:55:02.483Z"
+  }
+},
+{
+  "model": "assets.asset",
+  "pk": 4,
+  "fields": {
+    "name": "Dell UltraSharp 27",
+    "type": "Monitor",
+    "serial_number": "DU27-004",
+    "status": "AVAILABLE",
+    "purchase_date": "2025-04-12",
+    "created_at": "2026-09-20T20:55:02.495Z",
+    "updated_at": "2026-09-20T20:55:02.495Z"
+  }
+},
+{
+  "model": "assets.asset",
+  "pk": 5,
+  "fields": {
+    "name": "Logitech MX Keys",
+    "type": "Keyboard",
+    "serial_number": "LMXK-005",
+    "status": "ASSIGNED",
+    "purchase_date": "2025-05-20",
+    "created_at": "2026-09-20T20:55:02.510Z",
+    "updated_at": "2026-09-20T20:55:02.511Z"
+  }
+},
+{
+  "model": "assets.asset",
+  "pk": 6,
+  "fields": {
+    "name": "Logitech MX Master 3S",
+    "type": "Mouse",
+    "serial_number": "LMM-006",
+    "status": "REPAIR",
+    "purchase_date": "2025-06-02",
+    "created_at": "2026-09-20T20:55:02.526Z",
+    "updated_at": "2026-09-20T20:55:02.526Z"
+  }
+},
+{
+  "model": "assets.asset",
+  "pk": 7,
+  "fields": {
+    "name": "HP LaserJet Pro",
+    "type": "Printer",
+    "serial_number": "HPLJ-007",
+    "status": "AVAILABLE",
+    "purchase_date": "2025-06-18",
+    "created_at": "2026-09-20T20:55:02.538Z",
+    "updated_at": "2026-09-20T20:55:02.538Z"
+  }
+},
+{
+  "model": "assets.asset",
+  "pk": 8,
+  "fields": {
+    "name": "Lenovo ThinkPad E14",
+    "type": "Laptop",
+    "serial_number": "LTE14-008",
+    "status": "RETIRED",
+    "purchase_date": "2024-07-08",
+    "created_at": "2026-09-20T20:55:02.550Z",
+    "updated_at": "2026-09-20T20:55:02.550Z"
+  }
+},
+{
+  "model": "assets.inventoryitem",
+  "pk": 1,
+  "fields": {
+    "item_type": "HDMI Cable",
+    "quantity": 18,
+    "threshold": 5,
+    "created_at": "2026-09-20T20:55:02.564Z",
+    "updated_at": "2026-09-20T20:57:56.018Z"
+  }
+},
+{
+  "model": "assets.inventoryitem",
+  "pk": 2,
+  "fields": {
+    "item_type": "USB-C Cable",
+    "quantity": 12,
+    "threshold": 5,
+    "created_at": "2026-09-20T20:55:02.578Z",
+    "updated_at": "2026-09-20T20:57:56.039Z"
+  }
+},
+{
+  "model": "assets.inventoryitem",
+  "pk": 3,
+  "fields": {
+    "item_type": "Laptop Charger",
+    "quantity": 4,
+    "threshold": 5,
+    "created_at": "2026-09-20T20:55:02.589Z",
+    "updated_at": "2026-09-20T20:57:56.063Z"
+  }
+},
+{
+  "model": "assets.inventoryitem",
+  "pk": 4,
+  "fields": {
+    "item_type": "Wireless Mouse",
+    "quantity": 15,
+    "threshold": 5,
+    "created_at": "2026-09-20T20:55:02.603Z",
+    "updated_at": "2026-09-20T20:57:56.082Z"
+  }
+},
+{
+  "model": "assets.inventoryitem",
+  "pk": 5,
+  "fields": {
+    "item_type": "Keyboard",
+    "quantity": 3,
+    "threshold": 5,
+    "created_at": "2026-09-20T20:55:02.615Z",
+    "updated_at": "2026-09-20T20:57:56.098Z"
+  }
+},
+{
+  "model": "assets.inventoryitem",
+  "pk": 6,
+  "fields": {
+    "item_type": "Ethernet Cable",
+    "quantity": 25,
+    "threshold": 10,
+    "created_at": "2026-09-20T20:55:02.626Z",
+    "updated_at": "2026-09-20T20:57:56.109Z"
+  }
+},
+{
+  "model": "assets.assignment",
+  "pk": 1,
+  "fields": {
+    "asset": 1,
+    "employee": [
+      "arjun"
+    ],
+    "date_assigned": "2025-02-01",
+    "date_returned": null,
+    "created_at": "2026-09-20T20:55:02.639Z"
+  }
+},
+{
+  "model": "assets.assignment",
+  "pk": 2,
+  "fields": {
+    "asset": 3,
+    "employee": [
+      "rahul"
+    ],
+    "date_assigned": "2025-03-10",
+    "date_returned": null,
+    "created_at": "2026-09-20T20:55:02.655Z"
+  }
+},
+{
+  "model": "assets.assignment",
+  "pk": 3,
+  "fields": {
+    "asset": 5,
+    "employee": [
+      "meera"
+    ],
+    "date_assigned": "2025-05-25",
+    "date_returned": null,
+    "created_at": "2026-09-20T20:55:02.668Z"
+  }
+},
+{
+  "model": "assets.assignment",
+  "pk": 4,
+  "fields": {
+    "asset": 8,
+    "employee": [
+      "fahad"
+    ],
+    "date_assigned": "2026-09-24",
+    "date_returned": "2026-09-30",
+    "created_at": "2026-09-20T22:20:45.517Z"
+  }
+},
+{
+  "model": "assets.repairticket",
+  "pk": 1,
+  "fields": {
+    "asset": 6,
+    "issue": "Mouse is disconnecting randomly.",
+    "status": "IN_PROGRESS",
+    "assigned_technician": [
+      "admin"
+    ],
+    "created_at": "2026-09-20T20:55:02.685Z",
+    "updated_at": "2026-09-20T20:55:02.685Z"
+  }
+},
+{
+  "model": "assets.repairticket",
+  "pk": 2,
+  "fields": {
+    "asset": 2,
+    "issue": "Laptop battery drains unusually fast.",
+    "status": "OPEN",
+    "assigned_technician": [
+      "admin"
+    ],
+    "created_at": "2026-09-20T20:55:02.700Z",
+    "updated_at": "2026-09-20T20:55:02.700Z"
+  }
+},
+{
+  "model": "assets.repairticket",
+  "pk": 3,
+  "fields": {
+    "asset": 4,
+    "issue": "Monitor occasionally flickers. and lines",
+    "status": "RESOLVED",
+    "assigned_technician": [
+      "fahad"
+    ],
+    "created_at": "2026-09-20T20:55:02.717Z",
+    "updated_at": "2026-09-20T22:23:40.165Z"
+  }
+},
+{
+  "model": "assets.repairticket",
+  "pk": 4,
+  "fields": {
+    "asset": 7,
+    "issue": "serious issue",
+    "status": "CLOSED",
+    "assigned_technician": [
+      "meera"
+    ],
+    "created_at": "2026-09-20T22:24:09.183Z",
+    "updated_at": "2026-09-20T22:24:39.708Z"
+  }
+},
+{
+  "model": "assets.impersonationlog",
+  "pk": 1,
+  "fields": {
+    "admin": [
+      "mainadmin"
+    ],
+    "employee": [
+      "arjun"
+    ],
+    "started_at": "2026-09-20T23:11:03.484Z",
+    "ended_at": "2026-09-20T23:11:23.440Z"
+  }
+},
+{
+  "model": "assets.impersonationlog",
+  "pk": 2,
+  "fields": {
+    "admin": [
+      "mainadmin"
+    ],
+    "employee": [
+      "arjun"
+    ],
+    "started_at": "2026-09-20T23:14:18.215Z",
+    "ended_at": "2026-09-20T23:14:30.318Z"
+  }
+},
+{
+  "model": "assets.impersonationlog",
+  "pk": 3,
+  "fields": {
+    "admin": [
+      "admin"
+    ],
+    "employee": [
+      "arjun"
+    ],
+    "started_at": "2026-09-21T00:00:52.454Z",
+    "ended_at": "2026-09-21T00:01:11.636Z"
+  }
+},
+{
+  "model": "assets.aiconversation",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "arjun"
+    ],
+    "title": "hi",
+    "created_at": "2026-09-21T09:04:28.490Z",
+    "updated_at": "2026-09-21T09:04:48.083Z"
+  }
+},
+{
+  "model": "assets.aiconversation",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "title": "Count assets are there?",
+    "created_at": "2026-09-21T09:23:14.860Z",
+    "updated_at": "2026-09-21T09:24:13.371Z"
+  }
+},
+{
+  "model": "assets.aiconversation",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "title": "Overview the low stock items.",
+    "created_at": "2026-09-21T09:24:39.544Z",
+    "updated_at": "2026-09-21T09:30:14.081Z"
+  }
+},
+{
+  "model": "assets.aiconversation",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "title": "Automated Test",
+    "created_at": "2026-09-21T09:41:49.177Z",
+    "updated_at": "2026-09-21T09:41:49.179Z"
+  }
+},
+{
+  "model": "assets.aiconversation",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "title": "Automated Test",
+    "created_at": "2026-09-21T09:43:42.551Z",
+    "updated_at": "2026-09-21T09:45:21.253Z"
+  }
+},
+{
+  "model": "assets.aiconversation",
+  "pk": 28,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "title": "Automated Test",
+    "created_at": "2026-09-21T09:47:23.915Z",
+    "updated_at": "2026-09-21T09:49:51.527Z"
+  }
+},
+{
+  "model": "assets.aiconversation",
+  "pk": 29,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "title": "hello",
+    "created_at": "2026-09-21T09:49:34.259Z",
+    "updated_at": "2026-09-21T15:56:46.541Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 12,
+  "fields": {
+    "conversation": 12,
+    "role": "user",
+    "content": "hi",
+    "created_at": "2026-09-21T09:04:38.450Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 13,
+  "fields": {
+    "conversation": 12,
+    "role": "assistant",
+    "content": "Hello! How can I assist you with the asset management system today? Feel free to ask about assets, inventory, assignments, repair tickets, or users.",
+    "created_at": "2026-09-21T09:04:48.063Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 26,
+  "fields": {
+    "conversation": 23,
+    "role": "user",
+    "content": "How many assets are there?",
+    "created_at": "2026-09-21T09:23:56.537Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 27,
+  "fields": {
+    "conversation": 23,
+    "role": "assistant",
+    "content": "There are **8 assets** in the system.",
+    "created_at": "2026-09-21T09:23:56.590Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 28,
+  "fields": {
+    "conversation": 23,
+    "role": "user",
+    "content": "How many available assets are there?",
+    "created_at": "2026-09-21T09:24:01.999Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 29,
+  "fields": {
+    "conversation": 23,
+    "role": "assistant",
+    "content": "There are **3 available assets**.",
+    "created_at": "2026-09-21T09:24:02.054Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 30,
+  "fields": {
+    "conversation": 23,
+    "role": "user",
+    "content": "How many assets are assigned?",
+    "created_at": "2026-09-21T09:24:07.955Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 31,
+  "fields": {
+    "conversation": 23,
+    "role": "assistant",
+    "content": "There are **3 assigned assets**.",
+    "created_at": "2026-09-21T09:24:08.007Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 32,
+  "fields": {
+    "conversation": 23,
+    "role": "user",
+    "content": "How many assets are under repair?",
+    "created_at": "2026-09-21T09:24:13.315Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 33,
+  "fields": {
+    "conversation": 23,
+    "role": "assistant",
+    "content": "There are **1 assets under repair**.",
+    "created_at": "2026-09-21T09:24:13.358Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 36,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "Show me the low stock items.",
+    "created_at": "2026-09-21T09:24:48.613Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 37,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "**Low-stock items:**\n\n- **Keyboard** ΓÇö 3 remaining (threshold: 5)\n- **Laptop Charger** ΓÇö 4 remaining (threshold: 5)",
+    "created_at": "2026-09-21T09:24:48.680Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 38,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "How many inventory items are there?",
+    "created_at": "2026-09-21T09:24:53.997Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 39,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "There are **6 inventory items** with **77 total units**.",
+    "created_at": "2026-09-21T09:24:54.054Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 40,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "How many repair tickets are there?",
+    "created_at": "2026-09-21T09:25:03.424Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 41,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "There are **4 repair tickets** in the system.",
+    "created_at": "2026-09-21T09:25:03.484Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 42,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "How many open repair tickets are there?",
+    "created_at": "2026-09-21T09:25:08.329Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 43,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "There are **1 open repair tickets**.",
+    "created_at": "2026-09-21T09:25:08.396Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 44,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "Show me the repair tickets and their current status.",
+    "created_at": "2026-09-21T09:25:18.459Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 45,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "Here are the repair tickets and their current statuses:\n\n- **HP LaserJet Pro** ΓÇö CLOSED (Issue: serious issue)\n- **Dell UltraSharp 27** ΓÇö RESOLVED (Issue: Monitor occasionally flickers. and lines)\n- **HP ProBook 450** ΓÇö OPEN (Issue: Laptop battery drains unusually fast.)\n- **Logitech MX Master 3S** ΓÇö IN_PROGRESS (Issue: Mouse is disconnecting randomly.)",
+    "created_at": "2026-09-21T09:25:37.528Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 46,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "How many assignments are there?",
+    "created_at": "2026-09-21T09:25:52.857Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 47,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "There are **4 assignments** in total, with **3 currently active**.",
+    "created_at": "2026-09-21T09:25:52.900Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 48,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "Which assets are currently under repair?",
+    "created_at": "2026-09-21T09:26:01.731Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 49,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "There is **1 asset** currently under repair:\n\n* **Logitech MX Master 3S** (Status: REPAIR)",
+    "created_at": "2026-09-21T09:26:16.398Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 50,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "What are their serial numbers?",
+    "created_at": "2026-09-21T09:26:25.843Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 51,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "The serial number for the **Logitech MX Master 3S** (currently under repair) is **LMM-006**.",
+    "created_at": "2026-09-21T09:26:39.613Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 52,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "Tell me about asset XYZ-999999.",
+    "created_at": "2026-09-21T09:26:42.155Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 54,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "Information for asset **XYZ-999999** is not available in the system.",
+    "created_at": "2026-09-21T09:27:36.580Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 55,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "What is the capital of France?",
+    "created_at": "2026-09-21T09:27:50.057Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 56,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "That information is not available in the application data. I can only assist with questions related to the Asset Management System.",
+    "created_at": "2026-09-21T09:27:53.647Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 57,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "What is the capital of France?",
+    "created_at": "2026-09-21T09:29:31.073Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 58,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "The capital of France is Paris.",
+    "created_at": "2026-09-21T09:30:14.062Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 59,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "How many assets are there?",
+    "created_at": "2026-09-21T09:43:42.574Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 60,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "There are **8 assets** in the system.",
+    "created_at": "2026-09-21T09:43:42.611Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 61,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "How many available assets are there?",
+    "created_at": "2026-09-21T09:43:42.655Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 62,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "There are **3 available assets**.",
+    "created_at": "2026-09-21T09:43:42.689Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 63,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "Show me the low stock items.",
+    "created_at": "2026-09-21T09:43:42.726Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 64,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "**Low-stock items:**\n\n- **Keyboard** ΓÇö 3 remaining (threshold: 5)\n- **Laptop Charger** ΓÇö 4 remaining (threshold: 5)",
+    "created_at": "2026-09-21T09:43:42.756Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 65,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "What is the capital of France?",
+    "created_at": "2026-09-21T09:43:42.787Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 66,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "Tell me about asset XYZ-999999.",
+    "created_at": "2026-09-21T09:44:02.801Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 67,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "The capital of France is **Paris**.",
+    "created_at": "2026-09-21T09:44:07.979Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 68,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "Which assets are currently under repair?",
+    "created_at": "2026-09-21T09:44:22.820Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 69,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "Asset **XYZ-999999** was not found in the database.",
+    "created_at": "2026-09-21T09:44:33.594Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 70,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "There is **1 asset** currently under repair:\n\n- **Logitech MX Master 3S** (Serial: `LMM-006`) ΓÇö Repair Ticket status: *IN_PROGRESS* (Issue: \"Mouse is disconnecting randomly.\")",
+    "created_at": "2026-09-21T09:45:21.240Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 71,
+  "fields": {
+    "conversation": 28,
+    "role": "user",
+    "content": "How many assets are there?",
+    "created_at": "2026-09-21T09:47:23.949Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 72,
+  "fields": {
+    "conversation": 28,
+    "role": "assistant",
+    "content": "There are **8 assets** in the system.",
+    "created_at": "2026-09-21T09:47:23.994Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 73,
+  "fields": {
+    "conversation": 28,
+    "role": "user",
+    "content": "How many available assets are there?",
+    "created_at": "2026-09-21T09:47:24.035Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 74,
+  "fields": {
+    "conversation": 28,
+    "role": "assistant",
+    "content": "There are **3 available assets**.",
+    "created_at": "2026-09-21T09:47:24.068Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 75,
+  "fields": {
+    "conversation": 28,
+    "role": "user",
+    "content": "Show me the low stock items.",
+    "created_at": "2026-09-21T09:47:24.111Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 76,
+  "fields": {
+    "conversation": 28,
+    "role": "assistant",
+    "content": "**Low-stock items:**\n\n- **Keyboard** ΓÇö 3 remaining (threshold: 5)\n- **Laptop Charger** ΓÇö 4 remaining (threshold: 5)",
+    "created_at": "2026-09-21T09:47:24.155Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 77,
+  "fields": {
+    "conversation": 28,
+    "role": "user",
+    "content": "What is the capital of France?",
+    "created_at": "2026-09-21T09:47:24.191Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 78,
+  "fields": {
+    "conversation": 28,
+    "role": "assistant",
+    "content": "The capital of France is **Paris**.",
+    "created_at": "2026-09-21T09:48:01.115Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 79,
+  "fields": {
+    "conversation": 28,
+    "role": "user",
+    "content": "Tell me about asset XYZ-999999.",
+    "created_at": "2026-09-21T09:48:01.164Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 80,
+  "fields": {
+    "conversation": 28,
+    "role": "assistant",
+    "content": "Asset **XYZ-999999** was not found in the database.",
+    "created_at": "2026-09-21T09:48:38.049Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 81,
+  "fields": {
+    "conversation": 28,
+    "role": "user",
+    "content": "Which assets are currently under repair?",
+    "created_at": "2026-09-21T09:48:38.104Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 82,
+  "fields": {
+    "conversation": 28,
+    "role": "user",
+    "content": "what are you",
+    "created_at": "2026-09-21T09:48:46.505Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 83,
+  "fields": {
+    "conversation": 28,
+    "role": "assistant",
+    "content": "There is **1 asset** currently under repair:\n\n* **Logitech MX Master 3S** (Mouse) ΓÇö Serial: `LMM-006`",
+    "created_at": "2026-09-21T09:49:16.196Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 84,
+  "fields": {
+    "conversation": 28,
+    "role": "user",
+    "content": "What are their serial numbers?",
+    "created_at": "2026-09-21T09:49:16.246Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 85,
+  "fields": {
+    "conversation": 28,
+    "role": "assistant",
+    "content": "I am the AI assistant for your Asset Management System. I can answer questions about the system's assets, inventory, assignments, users, and repair tickets, as well as assist with general knowledge questions.",
+    "created_at": "2026-09-21T09:49:29.064Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 86,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "hello",
+    "created_at": "2026-09-21T09:49:37.566Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 87,
+  "fields": {
+    "conversation": 28,
+    "role": "assistant",
+    "content": "The serial number for the asset currently under repair is:\n\n* **Logitech MX Master 3S**: `LMM-006`",
+    "created_at": "2026-09-21T09:49:51.480Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 88,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "Hello! How can I assist you with the Asset Management System or answer any questions you have today?",
+    "created_at": "2026-09-21T09:50:12.780Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 89,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "who are you and who am i",
+    "created_at": "2026-09-21T15:02:31.990Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 90,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "How many assets are available?",
+    "created_at": "2026-09-21T15:03:17.867Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 91,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "There are **3 available assets**.",
+    "created_at": "2026-09-21T15:03:17.917Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 92,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "whats capital of france",
+    "created_at": "2026-09-21T15:03:25.608Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 93,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "The capital of France is Paris.",
+    "created_at": "2026-09-21T15:12:13.102Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 94,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "who are you and who am i",
+    "created_at": "2026-09-21T15:12:55.321Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 95,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "I can still access the asset management data, but the AI reasoning service is temporarily unavailable.\n\nTry asking me about **assets, inventory, assignments, users, or repair tickets**.",
+    "created_at": "2026-09-21T15:13:29.020Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 96,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "How many assets are available?",
+    "created_at": "2026-09-21T15:16:51.179Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 97,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "There are **3 available assets**.",
+    "created_at": "2026-09-21T15:16:51.247Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 98,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "who are you and who am i",
+    "created_at": "2026-09-21T15:17:01.843Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 99,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "I can still access the asset management data, but the AI reasoning service is temporarily unavailable.\n\nTry asking me about **assets, inventory, assignments, users, or repair tickets**.",
+    "created_at": "2026-09-21T15:17:29.095Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 100,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "how many staff we have",
+    "created_at": "2026-09-21T15:56:24.676Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 101,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "I can still access the asset management data, but the AI reasoning service is temporarily unavailable.\n\nTry asking me about **assets, inventory, assignments, users, or repair tickets**.",
+    "created_at": "2026-09-21T15:56:24.747Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 102,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "hi",
+    "created_at": "2026-09-21T15:56:28.705Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 103,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "Hello! I am the AI assistant for the Asset Management System. How can I help you today with assets, inventory, assignments, users, or repair tickets?",
+    "created_at": "2026-09-21T15:56:33.312Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 104,
+  "fields": {
+    "conversation": 29,
+    "role": "user",
+    "content": "how many users we have",
+    "created_at": "2026-09-21T15:56:46.507Z"
+  }
+},
+{
+  "model": "assets.aimessage",
+  "pk": 105,
+  "fields": {
+    "conversation": 29,
+    "role": "assistant",
+    "content": "There are **6 active users** in the system.",
+    "created_at": "2026-09-21T15:56:46.539Z"
+  }
+}
+]

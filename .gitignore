@@ -31,3 +31,9 @@ frontend/dist/
 # OS
 .DS_Store
 Thumbs.db
+
+*.sqlite3.backup
+old_data.json
+old_data_clean.json
+backend/config/settings_sqlite.py
+backend/config/settings.postgres.py

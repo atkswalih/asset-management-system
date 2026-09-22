@@ -5,6 +5,8 @@ import {
   Routes,
 } from "react-router-dom";
 
+import { useEffect, useState } from "react";
+
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 
@@ -40,6 +42,68 @@ function Layout({ children }) {
 }
 
 function App() {
+  const [backendReady, setBackendReady] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const wakeBackend = async () => {
+      while (!cancelled) {
+        try {
+          const response = await fetch("/api/health/", {
+            method: "GET",
+            cache: "no-store",
+          });
+
+          if (response.ok) {
+            console.log("Backend is ready.");
+
+            if (!cancelled) {
+              setBackendReady(true);
+            }
+
+            break;
+          }
+
+          console.log("Backend is waking up...");
+        } catch (error) {
+          console.log("Backend is waking up...");
+        }
+
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+      }
+    };
+
+    wakeBackend();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  if (!backendReady) {
+    return (
+      <div
+        style={{
+          minHeight: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+          gap: "12px",
+          fontFamily: "Arial, sans-serif",
+          textAlign: "center",
+        }}
+      >
+        <h2>Connecting to server...</h2>
+
+        <p>
+          Please wait while we connect to the application.
+        </p>
+      </div>
+    );
+  }
+
   return (
     <BrowserRouter>
       <Routes>

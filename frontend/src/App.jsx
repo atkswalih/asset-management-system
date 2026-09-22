@@ -83,23 +83,50 @@ function App() {
 
   if (!backendReady) {
     return (
-      <div
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexDirection: "column",
-          gap: "12px",
-          fontFamily: "Arial, sans-serif",
-          textAlign: "center",
-        }}
-      >
-        <h2>Connecting to server...</h2>
+      <div className="backend-loading-screen">
+        <div className="loading-background-glow glow-one"></div>
+        <div className="loading-background-glow glow-two"></div>
 
-        <p>
-          Please wait while we connect to the application.
-        </p>
+        <div className="loading-content">
+          <div className="loading-logo-wrapper">
+            <div className="loading-ring loading-ring-one"></div>
+            <div className="loading-ring loading-ring-two"></div>
+
+            <div className="loading-logo">
+              <span>AM</span>
+            </div>
+          </div>
+
+          <div className="loading-text">
+            <h1>Asset Management</h1>
+
+            <p className="loading-title">
+              Waking up your workspace
+              <span className="loading-dots">
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
+              </span>
+            </p>
+
+            <p className="loading-description">
+              Connecting securely to the application server.
+            </p>
+          </div>
+
+          <div className="loading-status">
+            <span className="loading-status-dot"></span>
+            <span>Connecting to server</span>
+          </div>
+
+          <div className="loading-progress">
+            <div className="loading-progress-bar"></div>
+          </div>
+
+          <p className="loading-footer">
+            This may take a few seconds if the server was idle.
+          </p>
+        </div>
       </div>
     );
   }

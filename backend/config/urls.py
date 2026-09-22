@@ -1,5 +1,9 @@
 from django.contrib import admin
 from django.urls import include, path
+from django.http import JsonResponse
+
+
+
 
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
@@ -7,6 +11,10 @@ from rest_framework_simplejwt.views import (
 )
 
 from assets.views import CurrentUserView
+
+
+def health_check(request):
+    return JsonResponse({"status": "ok"})
 
 
 urlpatterns = [
@@ -31,6 +39,8 @@ urlpatterns = [
         TokenRefreshView.as_view(),
         name="token_refresh",
     ),
+    
+    path("api/health/", health_check),
 
     path(
         "api/auth/me/",
